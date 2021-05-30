@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ijmeet on firefox(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.mytests.LoginTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="verifyLoginPageUrl"/>
+          <include name="teardown"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- com.mytests.LoginTest -->
+    </classes>
+  </test> <!-- ijmeet on firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
